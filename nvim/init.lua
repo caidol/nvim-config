@@ -1,6 +1,8 @@
 require("user.options")
 require("user.keymaps")
 require("user.plugins")
+require("user.cmp")
+require("user.lsp")
 
 vim.cmd("set termguicolors")
 vim.cmd("let g:gruvbox_contrast_dark = 'hard'")
