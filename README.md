@@ -9,4 +9,4 @@ with the same gruvbox colourscheme.
 
 Below is a picture showing what the editor looks like (this is upon opening a Python file):
 
-![alt text](https://github.com/caidol/nvim-config/images/editor.png)
+![Alt text](https://github.com/caidol/nvim-config/blob/main/images/editor.png)
