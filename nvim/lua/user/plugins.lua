@@ -15,7 +15,9 @@ return require('packer').startup(function(use)
   use "wbthomason/packer.nvim" 
   use "nvim-lua/popup.nvim" 
   use "nvim-lua/plenary.nvim" 
-  use "windwp/nvim-autopairs" 
+  use "windwp/nvim-autopairs"
+  use "nvim-tree/nvim-web-devicons"
+  use "nvim-tree/nvim-tree.lua"
 
   -- Colorscheme
   use {'morhetz/gruvbox', config = function() vim.cmd.colorscheme("gruvbox") end }
@@ -52,6 +54,9 @@ return require('packer').startup(function(use)
       end,
   }    
   use "p00f/nvim-ts-rainbow"
+
+  -- Git
+  use "lewis6991/gitsigns.nvim"
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
